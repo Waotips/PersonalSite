@@ -1,0 +1,110 @@
+body{
+    background-color: grey;
+    border-radius: 6px;
+    margin: 0;
+}
+.header{
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-color:#EDD2F3;
+    padding-left: 30%;
+    padding-right: 20%;
+}
+.about-me{
+    background-color:#e9abf7; padding: 10px;font-family: 'Rubik', sans-serif;
+    max-width: 500px;
+    width: 600px;
+    height: 200px;
+    box-shadow: 9px 6px 5px black;
+}
+.i{
+    max-width: 300px;
+}
+.study{
+    display: flex;
+    flex-direction: row;
+    background-color: #FFFCDC;
+    position: relative;
+    height: 500px;
+}
+.study1{
+    background-color: #fff36f; padding: 10px;font-family: 'Rubik', sans-serif;
+    position: absolute;
+    width: 300px;
+    height: 380px;
+    left: 700px;
+    top: 20px;
+    box-shadow: 9px 6px 5px black;
+    border-radius: 10px;
+}
+.study2{
+    background-color:#f1e55a; padding: 10px; font-family: 'Rubik', sans-serif;
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    right: 745px;
+    bottom: 40px;
+    box-shadow: 9px 6px 5px black;
+}
+.sport{
+    background-color:#84DFFF; padding: 20px;font-family: 'Rubik', sans-serif; 
+    display: flex;
+    flex-direction: row;
+    padding-left: 30%;
+    padding-right: 20%;
+}
+.about-sport{
+    max-width: 500px;
+    padding-left:15px;
+    width: 570px;
+    height: 310px;
+    background-color: #4acaf8;
+    box-shadow: 9px 6px 5px black;
+    border-radius: 10px;
+}
+
+.pets{
+    background-color: #516BEB; padding: 17px;font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 30%;
+    padding-right: 35%;
+}
+.pets-1{
+    margin-right: 20px;
+    max-width: 500px;
+    padding-left: 15px;
+    padding-right: 10px;
+    width: 610px;
+    height: 200px;
+    background-color: #253dc5;
+    box-shadow: -9px 6px 5px;
+    border-radius: 10px;
+}
+.favorite-games{
+    background-color:#d2a6f7; padding: 15pt;font-family: 'Rubik', sans-serif;
+    padding-left: 40%;
+    padding-right: 40%;
+
+}
+.links{
+    background-color:#3e3c3f; padding: 15pt;font-family: 'Rubik', sans-serif;
+}
+.links>a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+h1{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+hr{
+    color: rgb(17, 16, 16);
+    width: 400px;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+}
