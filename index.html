@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
@@ -23,14 +24,14 @@
                     <img src="images/IMG_20210430_204133_BURST004.jpg" alt="Фотография Артёма Грешнякова" width="200"
                         style="border-radius: 5%;">
                 </div>
-                <div class="i">
+                <div class="i ">
                     <b> Мой персональный сайт</b>, в котором я рассказываю о себе, о своих занятиях и увлечениях.
                     <br>
                 </div>
             </center>
         </div>
         <!-- Обо мне -->
-        <div class="about-me">
+        <div class="about-me animate__animated animate__flash wow">
             <center>
                 <h1 style="color: rgb(0, 0, 0); font-size: 25px; font-family: 'Oswald', sans-serif;">"Коротко обо мне"
                 </h1>
@@ -46,8 +47,8 @@
         </div>
     </div>
 
-    <div class="study">
-        <div class="study1">
+    <div class="study ">
+        <div class="study1 ">
             <!-- Об учебе -->
             <center>
                 <h1 style="color: rgb(0, 0, 0);font-size: 25px;font-family: 'Oswald', sans-serif;">"Об учебе🏫"</h1>
@@ -173,18 +174,22 @@
 
         </div>
         <!-- Ссылки на соц.сети -->
-        <div class="links">
-            <a href="https://vk.com/waotips">
+        <div class="links ">
+            <a class="animate__animated animate__fadeInLeft wow" href="https://vk.com/waotips">
                 <span style="color: rgb(8, 7, 7); font-size:19pt">
                     Vkontakte
                 </span>
             </a>
             <br>
-            <a href="https://www.instagram.com/waotips/">
+            <a class="animate__animated animate__fadeInRight wow" href="https://www.instagram.com/waotips/">
                 <span style="color: rgb(20, 17, 17);font-size: 19pt;">
                     Instagram </span>
             </a>
         </div>
+        <script src="wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
 </body>
 
 </html>
